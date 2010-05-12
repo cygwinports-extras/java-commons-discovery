@@ -1,0 +1,11 @@
+category: Java
+requires: java-commons-logging
+sdesc: "Java Service Discovery library"
+ldesc: "The Discovery component is about discovering, or finding, 
+implementations for pluggable interfaces. It provides facilities for 
+instantiating classes in general, and for lifecycle management of 
+singleton (factory) classes. Discovery improves over previous 
+implementations by establishing facilities for working within managed 
+environments. These allow configuration and property overrides without 
+appealing to the global System properties (which are scoped across an 
+entire JVM)."

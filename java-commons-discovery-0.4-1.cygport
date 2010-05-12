@@ -1,0 +1,11 @@
+inherit ant
+
+DESCRIPTION="Java Service Discovery library"
+HOMEPAGE="http://commons.apache.org/discovery/"
+SRC_URI="mirror://apache/${ORIG_PN//-//}/source/${P#java-}-src.tar.gz"
+SRC_DIR="${P#java-}-src"
+
+ANT_BUILD_ARGS="-Dlogger.jar=${JAVA_DIR}/commons-logging.jar"
+ANT_BUILD_TARGETS="dist"
+ANT_INSTALL_JARS="dist/*.jar"
+ANT_INSTALL_JAVADOC="dist/docs/api"
